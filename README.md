@@ -1,11 +1,12 @@
 <div align="center">
 
-<img src="./assets/aasish-fx-banner.svg" alt="Aasish FX — AI systems, Python, cloud, research and automation" width="100%"/>
+<img src="./assets/aasish-fx-banner.svg" alt="Aasish FX — AI systems, automation, cloud and research" width="100%"/>
 
 ### Aasish Kumar Choudhary · **Aasish FX**
 
-**AI Systems & Automation Engineer**  
-Python • AI Integration • Agents • AWS • Technical Research
+# AI SYSTEMS & AUTOMATION ENGINEER
+
+**AI Agents • Python • AWS • APIs • Data • Automation • Research**
 
 <a href="https://github.com/aasishchoudhary"><img src="https://img.shields.io/badge/GitHub-aasishchoudhary-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-Engineering-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
@@ -15,215 +16,250 @@ Python • AI Integration • Agents • AWS • Technical Research
 
 ---
 
-## ⚡ What I build
+## ⚡ What I can build
 
-I build **AI-enabled software systems and automation** with an emphasis on reliability, observability and evidence.
+I build and integrate digital systems across **AI, software, data, cloud and business automation**.
 
-### The useful version
-
-| Need | What I can build |
+| Capability | Examples |
 |---|---|
-| 🤖 AI automation | Agent workflows, LLM integrations, tool calling, research automation |
-| 🔗 AI integration | Connect AI to APIs, internal tools and existing workflows |
-| 🐍 Python | Automation, APIs, data pipelines, backend and research tooling |
-| ☁️ AWS | Lambda, S3, serverless APIs, cloud integrations |
-| 🧪 AI reliability | Evaluation harnesses, telemetry, regression tests, failure analysis |
-| 🔬 Research systems | Architecture, experiments, reproducibility and technical documentation |
+| 🤖 **AI & ML Integration** | LLM APIs, embeddings, agents, RAG, chatbots, tool calling, evaluation |
+| 🧩 **Software & Web** | Python, APIs, backend systems, web applications, databases |
+| 📊 **Data Engineering** | scraping, extraction, ETL, SQL, validation, analytics |
+| ⚙️ **Business Automation** | workflow orchestration, n8n/Make/Zapier patterns, CRM integrations |
+| ☁️ **Cloud** | AWS Lambda, S3, serverless APIs, deployment and observability |
+| 🔬 **Research Systems** | evidence pipelines, experiments, technical research and reproducibility |
+| 🎨 **Digital Production** | AI-assisted content and workflow automation |
 
-**Positioning:** I don't just connect an AI model to an application. I aim to make the surrounding system **measurable, inspectable and improvable**.
-
----
-
-## 🧠 How I think about AI systems
-
-~~~text
-                 ┌──────────────────┐
-                 │     WORKFLOW     │
-                 └────────┬─────────┘
-                          ↓
-                 ┌──────────────────┐
-                 │   ORCHESTRATION  │
-                 └───────┬───┬──────┘
-                         │   │
-                   ┌─────▼┐ ┌▼──────┐
-                   │  AI  │ │ TOOLS │
-                   └──┬───┘ └───┬───┘
-                      │         │
-                      └────┬────┘
-                           ↓
-                  ┌─────────────────┐
-                  │   VALIDATION    │
-                  └────────┬────────┘
-                           ↓
-                  ┌─────────────────┐
-                  │ EVIDENCE / LOGS │
-                  └─────────────────┘
-~~~
-
-The AI component is only one part of the system.
-
-The surrounding engineering determines whether the result is **safe to trust, easy to debug and possible to improve**.
+**Core positioning:** I don't treat an AI model as the whole product. I build the surrounding system that makes the workflow **controlled, testable, observable and improvable**.
 
 ---
 
-## 🧩 Selected work
+# 🏛️ FLAGSHIP SYSTEMS
 
-### 🟣 Project GOLD
-**Research / Experimental**
+## 01 — AI Automation Engine
 
-A persistent cognitive-architecture research program exploring explicit state, memory, specialist processing, global-state integration, telemetry and provenance.
+**Verified prototype**
 
-→ [Read the Project GOLD research brief](./docs/PROJECT-GOLD.md)
+AI workflow orchestration with deterministic policy, controlled tools, telemetry and automated tests.
 
-### 🔵 AI Automation
-**Engineering direction**
+**Proof:** executable Python implementation • policy tests • tool tests • telemetry • CI
 
-A reference approach for connecting LLMs to workflows while separating probabilistic reasoning from deterministic control, validation and evidence.
-
-→ [Read the AI Automation architecture](./docs/AI-AUTOMATION.md)
-
-### 🟠 AWS / Serverless
-**Engineering direction**
-
-Cloud-native services built around small, understandable components, explicit security boundaries and observability.
-
-→ [Read the AWS / Serverless engineering brief](./docs/AWS-SERVERLESS.md)
+→ [Open the implementation](https://github.com/aasishchoudhary/aasish)
 
 ---
 
-## 🏗️ Systems mindset
+## 02 — Research Intelligence System
 
-<img src="./assets/system-architecture.svg" alt="Systems architecture showing inputs, processing, integration, state and observability" width="100%"/>
+**Architecture / Prototype**
 
-### My proof standard
+```
+QUESTION → PLAN → SOURCES → EXTRACT → CLAIMS → EVIDENCE → REPORT → REVIEW
+```
 
-~~~text
+Designed for technical research, market intelligence, competitor analysis and structured reports.
+
+→ [Research project specification](./projects/02-research-copilot/README.md)
+
+---
+
+## 03 — Data Extraction & ETL
+
+**Architecture / Prototype**
+
+```
+SOURCE → EXTRACT → NORMALIZE → VALIDATE → TRANSFORM → OUTPUT
+```
+
+Designed for scraping, data cleanup, structured datasets and reporting pipelines.
+
+→ [ETL project specification](./projects/03-data-etl/README.md)
+
+---
+
+## 04 — API & Workflow Integration Hub
+
+**Architecture / Prototype**
+
+Typed contracts • validation • retries • idempotency • webhooks • telemetry • secret isolation.
+
+→ [Integration project specification](./projects/04-api-integration/README.md)
+
+---
+
+## 05 — AWS Serverless Platform
+
+**Prototype**
+
+```
+CLIENT → API → LAMBDA → LOGIC → STORAGE / EXTERNAL SERVICES
+                         ↓
+                    OBSERVABILITY
+```
+
+Designed for lightweight APIs, automation backends and event-driven services.
+
+→ [AWS project specification](./projects/05-aws-serverless/README.md)
+
+---
+
+## 06 — AI Reliability & Evaluation Lab
+
+**Research / Prototype**
+
+Measures whether AI systems actually work instead of assuming that a good demo means a reliable system.
+
+**Evaluation:** completion • tool selection • failures • latency • recovery • intervention • regression • cost
+
+→ [Evaluation project specification](./projects/06-ai-evaluation/README.md)
+
+---
+
+# 🔬 TRUSTWORTHY EXECUTION
+
+Every serious project follows:
+
+```
 CLAIM
+  ↓
+SPECIFICATION
   ↓
 IMPLEMENTATION
   ↓
-DEMO
-  ↓
-TEST
+REPRODUCIBLE TEST
   ↓
 MEASUREMENT
   ↓
+FAILURE ANALYSIS
+  ↓
 LIMITATION
-~~~
+  ↓
+ITERATION
+```
 
-A prototype is not automatically a validated system.
+### Evidence levels
 
-I prefer to label work honestly as **Research → Prototype → Tested → Measured → Validated**, depending on the evidence available.
+**L0 — Claim**  
+**L1 — Specification**  
+**L2 — Implementation**  
+**L3 — Reproducible test**  
+**L4 — Measurement**  
+**L5 — Real-world validation**
 
----
+I will not label a prototype as production or publish unsupported performance numbers.
 
-## 🔬 Evidence-first engineering
-
-AI demos can hide failure modes.
-
-For important work I want to know:
-
-- What was the objective?
-- What was the expected behaviour?
-- What actually happened?
-- Can the result be reproduced?
-- What failed?
-- What does the system still not know?
-- What should happen next?
-
-→ [Evidence & Evaluation Standard](./docs/EVALUATION.md)
-
-This philosophy is also useful for client work because uncertainty can be reduced through small, measurable experiments before a large implementation is attempted.
+→ [Institutional proof standard](./docs/PROOF-STANDARD.md)
 
 ---
 
-## 🧠 Professional design philosophy
+# 🧠 SYSTEMS ARCHITECTURE
 
-This profile deliberately uses a **low-friction information hierarchy**:
+<img src="./assets/system-architecture.svg" alt="Systems architecture" width="100%"/>
 
-**Identity → Capability → Relevant work → Architecture → Evidence → Limitations → Contact**
-
-The purpose is simple: a visitor should not have to search through a wall of technology names to understand what I can actually deliver.
-
-→ [Portfolio strategy](./docs/PORTFOLIO-STRATEGY.md)
-
----
-
-## 🛠️ Technical focus
-
-**Languages**  
-Python • JavaScript • HTML • CSS • Shell
-
-**AI & systems**  
-AI agents • LLM systems • AI integration • cognitive architectures • orchestration • persistent state • telemetry • observability
-
-**Cloud & software**  
-AWS • Lambda • S3 • APIs • automation • data pipelines • serverless • GitHub
-
-**Engineering**  
-System design • testing • experimentation • documentation • evidence-first research
-
----
-
-## 🤝 Work with me
-
-### Good fit
-
-- AI workflow automation
-- AI/API integration
-- Python automation
-- agent prototypes
-- research tooling
-- AWS/serverless systems
-- evaluation and testing infrastructure
-- technical feasibility experiments
-
-### Delivery mindset
-
-**Problem → Scope → Architecture → Implementation → Test → Evidence → Handoff**
-
-I prefer clear assumptions, visible progress and documented limitations.
-
-→ [Services & capabilities](./docs/SERVICES.md)  
-→ [Client trust framework](./docs/CLIENT-TRUST.md)
+```
+                    WORKFLOW / CLIENT NEED
+                              ↓
+                         DISCOVERY
+                              ↓
+                         ARCHITECTURE
+                              ↓
+             ┌────────────────┴────────────────┐
+             ↓                                 ↓
+        DETERMINISTIC                     AI / MODEL
+        CONTROL LAYER                     COMPONENT
+             │                                 │
+             ├── Policy                       ├── Reasoning
+             ├── Validation                   ├── Extraction
+             ├── Schemas                      └── Generation
+             ├── Security
+             └── State
+             └────────────────┬────────────────┘
+                              ↓
+                        TEST / EVALUATE
+                              ↓
+                      TELEMETRY / EVIDENCE
+                              ↓
+                    DEPLOY / DOCUMENT / ITERATE
+```
 
 ---
 
-## 📚 Portfolio documentation
+# 🛠️ CAPABILITY STACK
 
-| Document | Purpose |
+### Software & Web
+Python • APIs • backend engineering • databases • web systems • JavaScript
+
+### AI & Machine Learning
+LLM integration • embeddings • agents • RAG • tool calling • chatbot systems • evaluation
+
+### Data
+Python scripting • extraction • ETL • SQL • data validation • analytics
+
+### Automation
+Workflow orchestration • n8n patterns • Make/Zapier patterns • API automation • CRM integration
+
+### Cloud
+AWS • Lambda • S3 • serverless • observability • deployment
+
+### Research
+Technical research • evidence mapping • experiments • reproducibility • documentation
+
+---
+
+# 🤝 CLIENT EXECUTION MODEL
+
+```
+CLIENT PROBLEM
+      ↓
+DISCOVERY
+      ↓
+SMALL TEST / FEASIBILITY
+      ↓
+ARCHITECTURE
+      ↓
+BUILD
+      ↓
+TEST
+      ↓
+MEASURE
+      ↓
+DEPLOY
+      ↓
+DOCUMENT + HANDOFF
+```
+
+The objective is not to sell complexity.
+
+The objective is to **remove a real problem from the client's workflow**.
+
+---
+
+# 📚 ENGINEERING GOVERNANCE
+
+| Standard | Purpose |
 |---|---|
-| [Portfolio Strategy](./docs/PORTFOLIO-STRATEGY.md) | How this portfolio is structured |
-| [Services](./docs/SERVICES.md) | What I can build |
-| [AI Automation](./docs/AI-AUTOMATION.md) | Agent/workflow engineering approach |
-| [AWS / Serverless](./docs/AWS-SERVERLESS.md) | Cloud engineering approach |
-| [Project GOLD](./docs/PROJECT-GOLD.md) | Research program |
-| [Evaluation Standard](./docs/EVALUATION.md) | Evidence and testing philosophy |
-| [Client Trust](./docs/CLIENT-TRUST.md) | Professional delivery principles |
+| [Proof Standard](./docs/PROOF-STANDARD.md) | Evidence and claim discipline |
+| [Portfolio Architecture](./docs/PORTFOLIO-ARCHITECTURE.md) | Capability structure |
+| [Evaluation](./docs/EVALUATION.md) | AI testing and measurement |
+| [Security](./SECURITY.md) | Secret and data protection |
+| [Client Trust](./docs/CLIENT-TRUST.md) | Professional delivery |
+| [Services](./docs/SERVICES.md) | Capability and delivery model |
 
 ---
 
-## 🎯 Current direction
+# 🎯 WHY THIS PORTFOLIO EXISTS
 
-~~~text
-AI SYSTEMS
-    │
-    ├── Agents & orchestration
-    ├── AI workflow automation
-    ├── Persistent state & memory
-    ├── Tool / API integration
-    ├── Evaluation & telemetry
-    └── Reproducible experimentation
-~~~
+Modern businesses are not only looking for people who can *use* AI.
+
+They need people who can **put AI into an existing workflow, connect it to software, control its failure modes, test the result and make the system useful.**
+
+That is the role this portfolio is designed to demonstrate.
 
 ---
 
 <div align="center">
 
-### AASISH FX
+## AASISH FX
 
-*Build it. Instrument it. Test it. Understand it.*
-
-<img src="https://komarev.com/ghpvc/?username=aasishchoudhary&style=flat-square&color=6ee7ff&label=PROFILE+VIEWS" alt="Profile views"/>
+**Build it. Instrument it. Test it. Understand it.**
 
 </div>
