@@ -2,16 +2,14 @@
 
 <img src="./assets/aasish-fx-banner.svg" alt="Aasish FX — AI systems, Python, cloud, research and automation" width="100%"/>
 
-<br/>
-
 ### Aasish Kumar Choudhary · **Aasish FX**
 
-**AI systems • Python • AWS • Automation • Technical Research**
+**AI Systems & Automation Engineer**  
+Python • AI Integration • Agents • AWS • Technical Research
 
 <a href="https://github.com/aasishchoudhary"><img src="https://img.shields.io/badge/GitHub-aasishchoudhary-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-Engineering-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
 <a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-Cloud-FF9900?style=for-the-badge&logo=amazonaws&logoColor=111827" alt="AWS"/></a>
-<a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></a>
 
 </div>
 
@@ -19,43 +17,77 @@
 
 ## ⚡ What I build
 
-I work on **software systems, AI infrastructure and experimental engineering** — with an emphasis on making systems understandable, observable and reproducible.
+I build **AI-enabled software systems and automation** with an emphasis on reliability, observability and evidence.
 
-My interests sit at the intersection of:
+### The useful version
 
-| 🧠 AI & Cognition | ⚙️ Engineering | ☁️ Cloud & Automation |
-|---|---|---|
-| AI agents | Python | AWS Lambda |
-| LLM systems | APIs | S3 |
-| Cognitive architectures | Data pipelines | Serverless systems |
-| Agent orchestration | Testing & telemetry | Automation |
-| Persistent state | GitHub workflows | Deployment |
+| Need | What I can build |
+|---|---|
+| 🤖 AI automation | Agent workflows, LLM integrations, tool calling, research automation |
+| 🔗 AI integration | Connect AI to APIs, internal tools and existing workflows |
+| 🐍 Python | Automation, APIs, data pipelines, backend and research tooling |
+| ☁️ AWS | Lambda, S3, serverless APIs, cloud integrations |
+| 🧪 AI reliability | Evaluation harnesses, telemetry, regression tests, failure analysis |
+| 🔬 Research systems | Architecture, experiments, reproducibility and technical documentation |
+
+**Positioning:** I don't just connect an AI model to an application. I aim to make the surrounding system **measurable, inspectable and improvable**.
 
 ---
 
-## 🧩 Selected Work
+## 🧠 How I think about AI systems
 
-### 🟣 Project Gold
-A research-oriented systems program exploring a persistent cognitive architecture for AI.
+~~~text
+                 ┌──────────────────┐
+                 │     WORKFLOW     │
+                 └────────┬─────────┘
+                          ↓
+                 ┌──────────────────┐
+                 │   ORCHESTRATION  │
+                 └───────┬───┬──────┘
+                         │   │
+                   ┌─────▼┐ ┌▼──────┐
+                   │  AI  │ │ TOOLS │
+                   └──┬───┘ └───┬───┘
+                      │         │
+                      └────┬────┘
+                           ↓
+                  ┌─────────────────┐
+                  │   VALIDATION    │
+                  └────────┬────────┘
+                           ↓
+                  ┌─────────────────┐
+                  │ EVIDENCE / LOGS │
+                  └─────────────────┘
+~~~
 
-**Focus:** memory • persistent state • specialist processing • global-state integration • event-driven communication • telemetry • provenance • agent orchestration
+The AI component is only one part of the system.
 
-### 🔵 AI / Agent Engineering
-Experiments around evidence-first AI-assisted development, execution workflows and observable system state.
+The surrounding engineering determines whether the result is **safe to trust, easy to debug and possible to improve**.
 
-**Focus:** planning → execution → evidence → validation → iteration
+---
+
+## 🧩 Selected work
+
+### 🟣 Project GOLD
+**Research / Experimental**
+
+A persistent cognitive-architecture research program exploring explicit state, memory, specialist processing, global-state integration, telemetry and provenance.
+
+→ [Read the Project GOLD research brief](./docs/PROJECT-GOLD.md)
+
+### 🔵 AI Automation
+**Engineering direction**
+
+A reference approach for connecting LLMs to workflows while separating probabilistic reasoning from deterministic control, validation and evidence.
+
+→ [Read the AI Automation architecture](./docs/AI-AUTOMATION.md)
 
 ### 🟠 AWS / Serverless
-Hands-on engineering with cloud-native building blocks and deployed services.
+**Engineering direction**
 
-**Focus:** Lambda • S3 • APIs • serverless deployment • system integration
+Cloud-native services built around small, understandable components, explicit security boundaries and observability.
 
-### 🟢 SAR Ground Control UI
-A software-only interface concept for search-and-rescue operations.
-
-**Focus:** mission visualization • telemetry dashboards • sensor presentation • operator workflow
-
-> *Simulation/UI work only — not a real-world flight-control system.*
+→ [Read the AWS / Serverless engineering brief](./docs/AWS-SERVERLESS.md)
 
 ---
 
@@ -63,60 +95,126 @@ A software-only interface concept for search-and-rescue operations.
 
 <img src="./assets/system-architecture.svg" alt="Systems architecture showing inputs, processing, integration, state and observability" width="100%"/>
 
-I prefer architectures where important behaviour can be **inspected, tested and explained**.
+### My proof standard
 
-That means:
+~~~text
+CLAIM
+  ↓
+IMPLEMENTATION
+  ↓
+DEMO
+  ↓
+TEST
+  ↓
+MEASUREMENT
+  ↓
+LIMITATION
+~~~
 
-- **Deterministic foundations** where possible
-- **Observable state** instead of hidden assumptions
-- **Modular components** that can be tested independently
-- **Evidence and provenance** for important outputs
-- **Clear separation** between experiments and verified behaviour
+A prototype is not automatically a validated system.
+
+I prefer to label work honestly as **Research → Prototype → Tested → Measured → Validated**, depending on the evidence available.
 
 ---
 
-## 🛠️ Technical Stack
+## 🔬 Evidence-first engineering
 
-### Languages
+AI demos can hide failure modes.
+
+For important work I want to know:
+
+- What was the objective?
+- What was the expected behaviour?
+- What actually happened?
+- Can the result be reproduced?
+- What failed?
+- What does the system still not know?
+- What should happen next?
+
+→ [Evidence & Evaluation Standard](./docs/EVALUATION.md)
+
+This philosophy is also useful for client work because uncertainty can be reduced through small, measurable experiments before a large implementation is attempted.
+
+---
+
+## 🧠 Professional design philosophy
+
+This profile deliberately uses a **low-friction information hierarchy**:
+
+**Identity → Capability → Relevant work → Architecture → Evidence → Limitations → Contact**
+
+The purpose is simple: a visitor should not have to search through a wall of technology names to understand what I can actually deliver.
+
+→ [Portfolio strategy](./docs/PORTFOLIO-STRATEGY.md)
+
+---
+
+## 🛠️ Technical focus
+
+**Languages**  
 Python • JavaScript • HTML • CSS • Shell
 
-### AI & Systems
-AI Agents • LLM Systems • Cognitive Architectures • Agent Orchestration • Persistent State • Telemetry • Observability
+**AI & systems**  
+AI agents • LLM systems • AI integration • cognitive architectures • orchestration • persistent state • telemetry • observability
 
-### Cloud & Software
-AWS • Lambda • S3 • APIs • Automation • Data Pipelines • GitHub • Serverless
+**Cloud & software**  
+AWS • Lambda • S3 • APIs • automation • data pipelines • serverless • GitHub
 
-### Engineering Approach
-System Design • Experimentation • Testing • Documentation • Evidence-First Research
+**Engineering**  
+System design • testing • experimentation • documentation • evidence-first research
 
 ---
 
-## 📌 Engineering principles
+## 🤝 Work with me
 
-> **Build it. Instrument it. Test it. Understand it.**
+### Good fit
 
-I care less about making a prototype *look intelligent* and more about making the underlying system **measurable, reproducible and improvable**.
+- AI workflow automation
+- AI/API integration
+- Python automation
+- agent prototypes
+- research tooling
+- AWS/serverless systems
+- evaluation and testing infrastructure
+- technical feasibility experiments
+
+### Delivery mindset
+
+**Problem → Scope → Architecture → Implementation → Test → Evidence → Handoff**
+
+I prefer clear assumptions, visible progress and documented limitations.
+
+→ [Services & capabilities](./docs/SERVICES.md)  
+→ [Client trust framework](./docs/CLIENT-TRUST.md)
+
+---
+
+## 📚 Portfolio documentation
+
+| Document | Purpose |
+|---|---|
+| [Portfolio Strategy](./docs/PORTFOLIO-STRATEGY.md) | How this portfolio is structured |
+| [Services](./docs/SERVICES.md) | What I can build |
+| [AI Automation](./docs/AI-AUTOMATION.md) | Agent/workflow engineering approach |
+| [AWS / Serverless](./docs/AWS-SERVERLESS.md) | Cloud engineering approach |
+| [Project GOLD](./docs/PROJECT-GOLD.md) | Research program |
+| [Evaluation Standard](./docs/EVALUATION.md) | Evidence and testing philosophy |
+| [Client Trust](./docs/CLIENT-TRUST.md) | Professional delivery principles |
 
 ---
 
 ## 🎯 Current direction
 
-    AI SYSTEMS
-        │
-        ├── Agents & orchestration
-        ├── Persistent state & memory
-        ├── Cognitive architectures
-        ├── Tool / API integration
-        ├── Telemetry & observability
-        └── Reproducible experimentation
-
----
-
-## 🤝 Open to
-
-**Freelance • Research • AI automation • Python development • AWS/serverless • Technical prototyping • Systems engineering**
-
-If a project needs someone who can move from **idea → architecture → implementation → testing → documentation**, let's build it.
+~~~text
+AI SYSTEMS
+    │
+    ├── Agents & orchestration
+    ├── AI workflow automation
+    ├── Persistent state & memory
+    ├── Tool / API integration
+    ├── Evaluation & telemetry
+    └── Reproducible experimentation
+~~~
 
 ---
 
@@ -124,9 +222,7 @@ If a project needs someone who can move from **idea → architecture → impleme
 
 ### AASISH FX
 
-*Engineering intelligent systems with measurable foundations.*
-
-<br/>
+*Build it. Instrument it. Test it. Understand it.*
 
 <img src="https://komarev.com/ghpvc/?username=aasishchoudhary&style=flat-square&color=6ee7ff&label=PROFILE+VIEWS" alt="Profile views"/>
 
