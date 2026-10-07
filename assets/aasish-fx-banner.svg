@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#050816"/><stop offset="0.5" stop-color="#111b3d"/><stop offset="1" stop-color="#050816"/></linearGradient>
+  <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#6ee7ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<rect width="1200" height="300" rx="28" fill="url(#g)"/>
+<path d="M0 245 C180 190 280 270 430 215 S700 160 820 210 S1030 260 1200 175" fill="none" stroke="#6ee7ff" stroke-opacity=".18" stroke-width="2"/>
+<path d="M0 255 C180 200 280 280 430 225 S700 170 820 220 S1030 270 1200 185" fill="none" stroke="#a78bfa" stroke-opacity=".13" stroke-width="1"/>
+<g fill="#6ee7ff" opacity=".65"><circle cx="95" cy="72" r="2"/><circle cx="1030" cy="65" r="2"/><circle cx="1090" cy="120" r="1.5"/><circle cx="180" cy="145" r="1.5"/><circle cx="915" cy="155" r="2"/></g>
+<text x="70" y="125" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700">AASISH FX</text>
+<text x="74" y="165" fill="#aeb9d6" font-family="Arial,Helvetica,sans-serif" font-size="20">AI SYSTEMS  •  PYTHON  •  CLOUD  •  RESEARCH  •  AUTOMATION</text>
+<rect x="74" y="198" width="270" height="2" fill="url(#a)"/>
+<text x="74" y="230" fill="#6ee7ff" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="3">BUILD  ·  MEASURE  ·  IMPROVE</text>
+</svg>
