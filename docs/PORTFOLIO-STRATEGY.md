@@ -1,97 +1,138 @@
-# Aasish FX — Portfolio Strategy
+# Aasish FX — Production AI Ecosystem Strategy
 
-## Objective
-Turn the GitHub presence into a proof-of-work portfolio for AI systems, automation, Python and cloud engineering.
+## Mission
 
-The portfolio follows:
-**Attention → Orientation → Relevance → Evidence → Trust → Action**
+Build a coherent open-source AI systems laboratory that demonstrates the ability to design, implement, test, secure, observe and operate agentic software.
 
-This is not about manipulating visitors. It is about making the right information easy to notice and easy to verify.
+The portfolio is not a collection of AI demos. Each repository owns a distinct platform capability and uses shared engineering contracts.
 
-## Attention architecture
-### Primacy
-The first screen establishes Aasish FX, AI Systems / Automation, Python / AWS and technical research.
+## Portfolio architecture
 
-### Cognitive-load reduction
-Information is grouped into four recognizable categories:
-- AI systems
-- automation
-- cloud
-- research
+### Core execution
+1. [AI Automation Engine](https://github.com/aasishchoudhary/ai-automation-engine) — policy-controlled task and tool execution.
 
-### Progressive disclosure
-1. identity
-2. capabilities
-3. selected work
-4. architecture
-5. implementation evidence
-6. limitations
-7. contact
+### Intelligence
+2. [Research Intelligence System](https://github.com/aasishchoudhary/research-intelligence-system) — evidence, claims, provenance, contradictions and reproducible research reports.
 
-### Signal over decoration
-The strongest signals are working demonstrations, readable source code, tests, architecture diagrams, reproducible setup, measured results and explicit limitations.
+### Agent infrastructure
+3. Auditable Agent Memory — provenance-aware persistent state.
+4. Context Runtime — context budgeting, compression, retrieval and session state.
+5. Background Agent Runtime — durable jobs, checkpoints, recovery and verification.
 
-### Calibrated claims
-Use explicit status labels:
-- Research
-- Prototype
-- Experimental
-- In Progress
-- Verified
-- Production
+### Reliability and security
+6. AI Evaluation Lab — datasets, traces, regression tests and quality metrics.
+7. Agent Security Lab — tool permissions, sandboxing and agent/MCP security.
 
-Unknown results remain unknown.
+### Platform
+8. Agent Integration Hub — APIs, webhooks, queues, databases and external services.
+9. Agent Control Plane — agents, jobs, identities, policies, approvals and fleet state.
+10. Aasish FX Console — optional operator interface for the ecosystem.
 
-## Proof ladder
-~~~text
-CLAIM
+## Common platform concepts
+
+The repositories should converge on a small shared vocabulary:
+
+```
+Task
+Agent
+Run
+Tool
+Artifact
+Event
+Policy
+Approval
+Evidence
+Memory
+Trace
+Evaluation
+```
+
+The purpose is interoperability, not framework lock-in.
+
+## Production gate
+
+A component is not called production-grade merely because it runs.
+
+```
+WORKS
   ↓
-IMPLEMENTATION
+TESTED
   ↓
-DEMO
+OBSERVED
   ↓
-TEST
+SECURED
   ↓
-MEASUREMENT
+EVALUATED
   ↓
-LIMITATION
-~~~
+RECOVERABLE
+  ↓
+DEPLOYABLE
+  ↓
+PRODUCTION
+```
 
-## Freelance discovery path
-~~~text
-Upwork / Search
-      ↓
-GitHub profile
-      ↓
-Relevant capability
-      ↓
-Flagship repository
-      ↓
-README
-      ↓
-Architecture + demo
-      ↓
-Tests / evidence
-      ↓
-Trust
-      ↓
-Conversation
-~~~
+Each claim must be backed by evidence.
 
-## Positioning
-Primary:
-> AI Systems & Automation Engineer
+## Technology strategy
 
-Supporting:
-> Python • AI integration • agent systems • AWS/serverless • technical research
+- Python: AI, data, research, evaluation and orchestration.
+- TypeScript: APIs, services, interfaces and production-facing systems.
+- Containers: reproducible and isolated execution.
+- Cloud: deploy only where the operational requirement justifies it.
+- CI: every flagship repository must have automated validation.
 
-## Anti-patterns
-Avoid fake client logos, fabricated metrics, fake testimonials, inflated job titles, unexplained technology lists, excessive badges and production claims without evidence.
+GitHub's 2025 Octoverse data supports this division: TypeScript became the most-used language on GitHub while Python remained dominant in AI/data; Dockerfile adoption also grew strongly as AI workloads moved toward reproducibility and production. 
 
-## Definition of success
-A visitor should quickly answer:
-1. Who is Aasish?
-2. What can he build?
-3. Where is the proof?
-4. Can I understand the system?
-5. How do I start a conversation?
+## Development phases
+
+### Phase 1 — Public foundation
+- strengthen AI Automation Engine
+- build Research Intelligence System
+- establish common quality/security standards
+
+### Phase 2 — Agent infrastructure
+- memory
+- context
+- background execution
+
+### Phase 3 — Reliability
+- evaluation
+- observability
+- regression datasets
+
+### Phase 4 — Security
+- permissions
+- sandboxing
+- threat modeling
+- agent/MCP inspection
+
+### Phase 5 — Platform
+- integration hub
+- control plane
+- operator console
+- staging/production deployment
+
+## Trust rules
+
+Never fabricate:
+- clients
+- revenue
+- testimonials
+- benchmarks
+- production status
+- deployment status
+- certifications
+- research evidence
+
+Always label:
+- implemented
+- tested
+- experimental
+- planned
+- unknown
+
+## Portfolio objective
+
+The visitor should be able to conclude:
+
+> Aasish FX understands how to build AI systems around models — execution, evidence, memory, context, reliability, security and operations — rather than merely calling an AI API.
